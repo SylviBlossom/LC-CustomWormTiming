@@ -1,2 +1,2 @@
-# TemplateMod
-A template for a BepInEx 5 Plugin, using the correct .csproj configuration for Lethal Company modding
+# Custom Worm Timing
+Modify the time it can take for the Earth Leviathan to emerge.
