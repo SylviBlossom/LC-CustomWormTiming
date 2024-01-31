@@ -2,8 +2,9 @@
     "name": "CustomWormTiming",
     "version_number": "1.0.0",
     "website_url": "https://github.com/SylviBlossom/LC-CustomWormTiming",
-    "description": "Modify the time it can take for the Earth Leviathan to emerge",
+    "description": "Modifies the time it takes for the Earth Leviathan to emerge",
     "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
+        "BepInEx-BepInExPack-5.4.2100",
+        "Owen3H-CSync-1.0.4"
     ]
 }
