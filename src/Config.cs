@@ -21,7 +21,7 @@ public class Config : SyncedInstance<Config>
 		InitInstance(this);
 
 		EmergeDelayMin = cfg.BindSyncedEntry("General", "EmergeDelayMin", 2f / 3f, "Minimum seconds for the worm to emerge. (Vanilla is 0.33..)");
-		EmergeDelayMax = cfg.BindSyncedEntry("General", "EmergeDelayMax", 6f / 3f, "Maximum seconds for the worm to emerge. (Vanilla is 2.33..)");
+		EmergeDelayMax = cfg.BindSyncedEntry("General", "EmergeDelayMax", 6f / 3f, "Maximum seconds for the worm to emerge. (Vanilla is 2)");
 
 		EmergeDelayMin.SettingChanged += OnSettingChanged;
 		EmergeDelayMax.SettingChanged += OnSettingChanged;
