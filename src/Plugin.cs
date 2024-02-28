@@ -23,7 +23,6 @@ public class Plugin : BaseUnityPlugin
 
 		var harmony = new Harmony(PluginInfo.PLUGIN_GUID);
 		harmony.PatchAll(typeof(Plugin));
-		harmony.PatchAll(typeof(Config));
 
 		Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
 	}

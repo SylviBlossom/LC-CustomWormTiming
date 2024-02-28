@@ -5,6 +5,6 @@
     "description": "Modifies the time it takes for the Earth Leviathan to emerge",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100",
-        "Owen3H-CSync-1.0.4"
+        "Owen3H-CSync-2.0.0"
     ]
 }
