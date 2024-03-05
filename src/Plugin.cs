@@ -9,6 +9,7 @@ using UnityEngine;
 namespace CustomWormTiming;
 
 [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
+[BepInDependency("com.sigurd.csync")]
 public class Plugin : BaseUnityPlugin
 {
 	public static Plugin Instance { get; private set; }
