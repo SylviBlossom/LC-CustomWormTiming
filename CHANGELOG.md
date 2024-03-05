@@ -1,3 +1,6 @@
+### v1.0.3
+- Update to Sigurd CSync v3.1.0 (old CSync has been deprecated)
+
 ### v1.0.2
 - Update to CSync v2.0.0
 
