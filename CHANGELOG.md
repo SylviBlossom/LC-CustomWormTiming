@@ -1,3 +1,7 @@
+### v1.0.4
+- Update to CSync v5.0.1
+- Change default config values to match v50 vanilla values
+
 ### v1.0.3
 - Update to Sigurd CSync v3.1.0 (old CSync has been deprecated)
 

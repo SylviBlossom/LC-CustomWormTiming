@@ -44,9 +44,9 @@ public class Plugin : BaseUnityPlugin
 		cursor.Emit(OpCodes.Ldloc_1);
 		cursor.EmitDelegate<Func<SandWormAI, float>>(self =>
 		{
-			var range = Config.Instance.EmergeDelayMax.Value - Config.Instance.EmergeDelayMin.Value;
+			var range = Config.EmergeDelayMax.Value - Config.EmergeDelayMin.Value;
 
-			return Config.Instance.EmergeDelayMin.Value + (float)self.sandWormRandom.NextDouble() * range;
+			return Config.EmergeDelayMin.Value + (float)self.sandWormRandom.NextDouble() * range;
 		});
 	}
 }

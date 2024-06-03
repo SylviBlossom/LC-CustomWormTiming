@@ -12,6 +12,7 @@
     <ItemGroup>
         <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
         <PackageReference Include="BepInEx.Core" Version="5.*" />
+        <PackageReference Include="Sigurd.BepInEx.CSync" Version="5.0.1" />
         <PackageReference Include="UnityEngine.Modules" Version="2022.3.9" IncludeAssets="compile" />
     </ItemGroup>
 
@@ -23,9 +24,6 @@
         <Reference Include="..\lib-stripped\Managed-v49-strip\Assembly-CSharp.dll" />
         <Reference Include="..\lib-stripped\Unity.Netcode.Runtime.dll" />
         <Reference Include="..\lib-stripped\Unity.Collections.dll" />
-        <Reference Include="com.sigurd.csync">
-          <HintPath>..\lib-stripped\com.sigurd.csync.dll</HintPath>
-        </Reference>
     </ItemGroup>
 
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
